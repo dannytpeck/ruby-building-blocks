@@ -17,4 +17,5 @@ def stock_picker(prices)
 	answer.push(sell_day)
 end
 
-print stock_picker([17,3,6,9,15,8,6,1,10])
+print stock_picker([17,3,6,9,15,8,6,1,10]) # => [1, 4]
+print stock_picker([7,25,6,1,2,8,6,0,0,0]) # => [0, 1]
